@@ -40,6 +40,7 @@ sourceSets {
 
 The result is that gradle compiles both source sets into different classes dirs. For instance, with gradle 4.0.2:
 
+```
 ---build
    \--- classes
         +--- main  # <-- sourceSets.main.java.srcDirs
